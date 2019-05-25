@@ -4,6 +4,11 @@
 #Make a Raspberry Pi fortune teller that prints your future on Howchoo - https://howchoo.com/g/zdg2zgm1yjn/make-a-raspberry-pi-fortune-teller
 #Sending Things to a Printer in Python - https://smallbusiness.chron.com/sending-things-printer-python-58655.html
 
+#TO DO
+#Proof of concept had problems printing graphics and unicode characters.
+#Testing using the os.system printing functions first. THEN:
+#Testing using code at https://github.com/adafruit/Python-Thermal-Printer and methodology at https://learn.adafruit.com/pi-thermal-printer/pi-setup-part-3 needed.
+
 import random #Importing random module for randomness and stuff
 import serial #Importing serial module for communcation
 import adafruit_thermal_printer #Importing adafruit thermal printer library
